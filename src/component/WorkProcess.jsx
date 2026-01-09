@@ -48,7 +48,7 @@ export default function WorkProcess() {
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight">
             Our Proven{" "}
-            <span className="text-red-500">5-Step Design Process</span>
+            <span className="text-blue-500">5-Step Design Process</span>
           </h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
             Normal Schedule: <strong>6–8 weeks</strong> &nbsp;|&nbsp; Rewrites:
@@ -74,11 +74,11 @@ export default function WorkProcess() {
                 {/* Icon */}
                 <div className="relative z-10 flex-shrink-0">
                   <div className="w-14 h-14 rounded-2xl bg-[#0f2742] border border-slate-700 shadow-md flex items-center justify-center">
-                    <step.icon size={24} className="text-red-500" />
+                    <step.icon size={24} className="text-blue-500" />
                   </div>
 
                   {/* Step Number */}
-                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
+                  <span className="absolute -top-2 -right-2 bg-blue-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
                     0{index + 1}
                   </span>
                 </div>
@@ -93,7 +93,7 @@ export default function WorkProcess() {
                   </p>
 
                   {/* Mobile Indicator */}
-                  <div className="mt-6 md:hidden w-12 h-1 bg-red-500/30 rounded-full" />
+                  <div className="mt-6 md:hidden w-12 h-1 bg-blue-500/30 rounded-full" />
                 </div>
               </motion.div>
             ))}
@@ -107,7 +107,7 @@ export default function WorkProcess() {
           viewport={{ once: true }}
           className="mt-20 text-center"
         >
-          <button className="bg-red-500 text-white px-12 py-4 rounded-full font-bold hover:bg-red-600 transition-all shadow-xl shadow-red-900/20">
+          <button className="bg-blue-400 text-white px-12 py-4 rounded-full font-bold hover:bg-red-600 transition-all shadow-xl shadow-red-900/20">
             Start Your Project
           </button>
         </motion.div>
