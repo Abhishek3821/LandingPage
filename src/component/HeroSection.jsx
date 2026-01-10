@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
    INPUT STYLE
 ============================ */
 const inputClass =
-  "w-full px-5 py-4 bg-white/5 border border-white/10 rounded-xl text-white outline-none placeholder:text-slate-400";
+  "w-full px-5 py-4 bg-white/5 border border-white/10 rounded-xl text-white outline-none placeholder:text-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/30 transition-all";
 
 /* ============================
    HERO SECTION
@@ -56,13 +56,7 @@ export default function HeroSection() {
 
           <button
             onClick={handleCTA}
-            className="
-              inline-flex items-center gap-3 px-8 py-4
-              bg-gradient-to-r from-blue-500 to-indigo-500
-              text-white font-black text-xs uppercase tracking-widest
-              rounded-2xl shadow-xl shadow-blue-500/30
-              hover:scale-105 active:scale-95 transition-all
-            "
+            className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-black text-xs uppercase tracking-widest rounded-2xl shadow-xl shadow-blue-500/30 hover:scale-105 active:scale-95 transition-all"
           >
             Start Your Project →
             <span className="px-3 py-1 rounded-full bg-white/10 text-[10px]">
@@ -93,17 +87,7 @@ function FormCard() {
   const [step, setStep] = useState(1);
 
   return (
-    <div
-      className="
-      w-full
-      max-h-[80vh] lg:max-h-[560px]
-      p-6 lg:p-8
-      rounded-2xl
-      bg-white/[0.04]
-      border border-white/10
-      flex flex-col
-    "
-    >
+    <div className="w-full max-h-[80vh] lg:max-h-[560px] p-6 lg:p-8 rounded-2xl bg-white/[0.04] border border-white/10 flex flex-col">
       {/* HEADER */}
       <div className="mb-4">
         <h3 className="text-2xl font-bold text-white">
@@ -134,14 +118,35 @@ function FormCard() {
           <div className="space-y-4">
             <input placeholder="City / Location*" className={inputClass} />
 
-            <select className={`${inputClass} bg-black/40`}>
-              <option value="">Service Type*</option>
-              <option>UI/UX Design</option>
-              <option>Website Design</option>
-              <option>Branding & Identity Design</option>
-              <option>Ecommerce Design</option>
-              <option>CMS Design</option>
-            </select>
+            {/* FIXED SELECT */}
+            <div className="relative">
+              <select
+                defaultValue=""
+                className={`${inputClass} appearance-none cursor-pointer pr-12 bg-slate-900`}
+              >
+                <option value="" disabled className="bg-slate-900 text-white">
+                  Service Type*
+                </option>
+                <option className="bg-slate-900 text-white">
+                  UI/UX Design
+                </option>
+                <option className="bg-slate-900 text-white">
+                  Website Design
+                </option>
+                <option className="bg-slate-900 text-white">
+                  Branding & Identity Design
+                </option>
+                <option className="bg-slate-900 text-white">
+                  Ecommerce Design
+                </option>
+                <option className="bg-slate-900 text-white">CMS Design</option>
+              </select>
+
+              {/* Arrow */}
+              <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-400">
+                ▼
+              </span>
+            </div>
 
             <textarea
               rows={3}
