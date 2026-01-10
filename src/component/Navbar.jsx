@@ -74,16 +74,6 @@ const Navbar = () => {
           ))}
 
           {/* CTA */}
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.96 }}
-            onClick={() => scrollToSection("contact")}
-            className="ml-3 px-4 py-1.5 rounded-md font-semibold text-white text-sm
-            bg-blue-600 hover:bg-blue-700
-            shadow-md shadow-blue-600/30 transition"
-          >
-            Free Consultation
-          </motion.button>
         </ul>
 
         {/* MOBILE TOGGLE */}
