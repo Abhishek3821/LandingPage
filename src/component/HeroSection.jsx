@@ -41,24 +41,33 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-5xl xl:text-6xl font-black text-white leading-tight"
+            className="text-4xl md:text-5xl  font-black text-white leading-tight"
           >
             Transform Your Digital Presence with{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
               Capyngen
-            </span>
+            </span>{" "}
+            – India's Leading Design Agency
           </motion.h1>
 
           <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto lg:mx-0">
-            Conversion-driven UX, branding, and digital experiences built for
-            growth-focused businesses.
+            Ready to captivate your audience and convert visitors into
+            customers?
+          </p>
+
+          <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto lg:mx-0">
+            Capyngen makes jaw-dropping UX/UI, conversion-driven sites,
+            memorable brands, high-functioning e-commerce sites, and flexible
+            CMSes that generate actual business outcomes. Our design prowess
+            brings to life ideas in the form of digital success stories in
+            startups and enterprises alike.
           </p>
 
           <button
             onClick={handleCTA}
             className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-black text-xs uppercase tracking-widest rounded-2xl shadow-xl shadow-blue-500/30 hover:scale-105 active:scale-95 transition-all"
           >
-            Start Your Project →
+            Start Your Project Today →
             <span className="px-3 py-1 rounded-full bg-white/10 text-[10px]">
               Free Consultation
             </span>
@@ -118,7 +127,6 @@ function FormCard() {
           <div className="space-y-4">
             <input placeholder="City / Location*" className={inputClass} />
 
-            {/* FIXED SELECT */}
             <div className="relative">
               <select
                 defaultValue=""
@@ -142,7 +150,6 @@ function FormCard() {
                 <option className="bg-slate-900 text-white">CMS Design</option>
               </select>
 
-              {/* Arrow */}
               <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-400">
                 ▼
               </span>

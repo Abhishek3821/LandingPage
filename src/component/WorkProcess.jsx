@@ -13,31 +13,31 @@ export default function WorkProcess() {
       icon: MessageCircle,
       title: "Discover & Audit",
       description:
-        "We understand your business model, audience, conversion funnel, and identify UX gaps that are holding growth back.",
+        "We know your business model, audience, funnel, and the problems with UX that you have.",
     },
     {
       icon: Lightbulb,
       title: "Strategy & Structure",
       description:
-        "Every key screen is mapped with clear site architecture, user journeys, and defined page objectives.",
+        "Each of each key screen has its site architecture, user journeys, and page objectives.",
     },
     {
       icon: Map,
       title: "Wireframes & UX",
       description:
-        "Low-fidelity wireframes focused on layout clarity, hierarchy, and seamless user path alignment.",
+        "Low-fidelity flows to achieve layout, hierarchy and user path alignment.",
     },
     {
       icon: ShieldCheck,
       title: "Visual Design & Prototypes",
       description:
-        "High-fidelity UI designs ready for testing, aligned with your branding, components, and micro-interactions.",
+        "Ready to test and present High-fidelity UI, your branding, components, and micro-interactions.",
     },
     {
       icon: Rocket,
       title: "Handoff & Support",
       description:
-        "Developer-ready assets, specifications, and continuous support during optimization and post-launch.",
+        "Developing ready exports, specifications, and after sales service during optimisation in the building and post-launch.",
     },
   ];
 
