@@ -36,7 +36,7 @@ const socialLinks = [
   },
   {
     icon: Youtube,
-    href: "https://www.youtube.com/@Capyngen-pvt-ltd",
+    href: "https://www.youtube.com/@Capyngen_official",
     label: "YouTube",
   },
 ];
