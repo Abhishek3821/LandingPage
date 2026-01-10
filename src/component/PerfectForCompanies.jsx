@@ -12,44 +12,32 @@ import {
 ============================ */
 const strategyPoints = [
   {
-    title: "Strategy-First Approach",
-    label: "SYS_STRAT",
-    text: "We do not begin with design trends but with your business objectives, audience psychology and revenue needs.",
-    icon: "M13 10V3L4 14h7v7l9-11h-7z",
-    color: "blue",
-  },
-  {
-    title: "Performance Obsessed",
-    label: "OPS_VITAL",
-    text: "No design fails our 95-point UX inspection. Lighthouse scores of 95+ are baked into our architectural DNA.",
+    title: "SaaS & Tech Products",
+    text: "UI Dashboard - Feature Landing Pages - Onboarding Flows.",
     icon: "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
     color: "emerald",
   },
   {
-    title: "Revenue-Focused",
-    label: "REV_ENGINE",
-    text: "We don't just put together screens; we engineer conversion paths. Every CTA and flow is optimized for the bottom line.",
+    title: "E-commerce & D2C Brands",
+    text: "Product Pages - Checkout Optimization - Brand Stores.",
     icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
     color: "rose",
   },
   {
-    title: "Developer-Ready",
-    label: "DEV_SYNC",
-    text: "Idyllic handoff using Figma components and documented specs. Zero loss in translation between vision and code.",
+    title: "B2B Service Businesses",
+    text: "Lead Generation Web Sites - Portfolio Systems - Authority Hubs.",
     icon: "M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z",
     color: "indigo",
   },
   {
-    title: "Future-Proof Systems",
-    label: "SCAL_ARCH",
-    text: "Scalable design systems that grow with you. Deploy new features or teams without the friction of a redesign.",
+    title: "Content & Media Companies",
+    text: "Resource Libraries - Membership Sites - CMS Templates.",
     icon: "M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4",
     color: "purple",
   },
 ];
 
 const accentColors = {
-  blue: "from-blue-500 to-cyan-400",
   emerald: "from-emerald-500 to-teal-400",
   rose: "from-rose-500 to-pink-400",
   indigo: "from-indigo-500 to-blue-400",
@@ -129,7 +117,7 @@ const StrategyCard = ({ item, index }) => {
           </div>
         </div>
 
-        <h3 className="text-xl font-semibold text-zinc-100 mb-4 group-hover:translate-x-1 transition-transform">
+        <h3 className="text-xl font-semibold text-zinc-100 mb-4">
           {item.title}
         </h3>
 
@@ -176,6 +164,10 @@ export default function WhyCapyngen() {
       </motion.div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
+        <h2 className="text-4xl lg:text-5xl font-black text-white mb-16">
+          Perfect For Fast-Growing Companies
+        </h2>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {strategyPoints.map((point, idx) => (
             <StrategyCard key={idx} item={point} index={idx} />

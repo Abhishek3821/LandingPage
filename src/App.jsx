@@ -14,16 +14,46 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <BusinessImpactStats />
-      <ProblemsSolved />
-      <ServicesSection />
-      <WhyCapyngen />
-      <WorkProcess />
-      <PerfectForCompanies />
-      <RealResults />
-      <ConversionCTA />
-      <FinalCTA />
+
+      <section id="home">
+        <HeroSection />
+      </section>
+
+      <section id="stats">
+        <BusinessImpactStats />
+      </section>
+
+      <section id="problems">
+        <ProblemsSolved />
+      </section>
+
+      <section id="services">
+        <ServicesSection />
+      </section>
+
+      <section id="why-capyngen">
+        <WhyCapyngen />
+      </section>
+
+      <section id="process">
+        <WorkProcess />
+      </section>
+
+      <section id="industries">
+        <PerfectForCompanies />
+      </section>
+
+      <section id="results">
+        <RealResults />
+      </section>
+
+      <section id="consultation">
+        <ConversionCTA />
+      </section>
+
+      <section id="contact">
+        <FinalCTA />
+      </section>
     </>
   );
 }

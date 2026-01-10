@@ -43,14 +43,6 @@ const strategyPoints = [
   },
 ];
 
-const accentColors = {
-  blue: "from-blue-500 to-cyan-400",
-  emerald: "from-emerald-500 to-teal-400",
-  rose: "from-rose-500 to-pink-400",
-  indigo: "from-indigo-500 to-blue-400",
-  purple: "from-purple-500 to-fuchsia-400",
-};
-
 /* ============================
    STRATEGY CARD
 ============================ */
@@ -129,6 +121,19 @@ export default function WhyCapyngen() {
       </motion.div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
+        {/* SECTION HEADING */}
+        <div className="mb-24 max-w-3xl">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+            Why Growing Your Business with{" "}
+            <span className="text-blue-400">Trusted Capyngen?</span>
+          </h2>
+
+          <p className="mt-6 text-lg text-slate-300 font-medium">
+            No Templates. No Guesswork. Just Results.
+          </p>
+        </div>
+
+        {/* CONTENT GRID */}
         <div className="grid lg:grid-cols-12 gap-20">
           {/* LEFT IMAGE */}
           <div className="lg:col-span-5 lg:sticky lg:top-32 hidden lg:block">
@@ -145,7 +150,7 @@ export default function WhyCapyngen() {
             </motion.div>
           </div>
 
-          {/* RIGHT CONTENT */}
+          {/* RIGHT CARDS */}
           <div className="lg:col-span-7 grid md:grid-cols-2 gap-6">
             {strategyPoints.map((p, i) => (
               <StrategyCard key={i} item={p} index={i} />

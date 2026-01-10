@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import capyngenLogo from "../assets/logo.jpeg";
+import capyngenLogo from "../assets/Newlogo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -13,10 +13,23 @@ const Navbar = () => {
 
   const menuItems = [
     { label: "Home", href: "home" },
-    { label: "Why Choose Us", href: "whychoose" },
-    { label: "Best for Digital Marketing", href: "whycapyngenbetter" },
-    { label: "Our Services", href: "ourservices" },
-    { label: "About Us", href: "about" },
+
+    { label: "Our Services", href: "services" },
+    // UI/UX, Website Design, Branding, E-commerce, CMS
+
+    { label: "Why Capyngen", href: "why-capyngen" },
+    // Strategy-First, Performance Obsessed, Revenue-Focused
+
+    { label: "Our Process", href: "process" },
+    // Proven 5-Step Design Process
+
+    { label: "Who It's For", href: "industries" },
+    // SaaS, E-commerce, B2B, Content & Media
+
+    { label: "Results", href: "results" },
+    // Stats + testimonials
+
+    { label: "Contact", href: "contact" },
   ];
 
   return (
@@ -36,7 +49,7 @@ const Navbar = () => {
           onClick={() => scrollToSection("home")}
           className="cursor-pointer flex items-center"
         >
-          <img src={capyngenLogo} alt="Capyngen" className="w-28" />
+          <img src={capyngenLogo} alt="Capyngen" className="w-28 " />
         </motion.div>
 
         {/* DESKTOP MENU */}

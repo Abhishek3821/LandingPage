@@ -99,18 +99,6 @@ export default function WorkProcess() {
             ))}
           </div>
         </div>
-
-        {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mt-20 text-center"
-        >
-          <button className="bg-blue-400 text-white px-12 py-4 rounded-md font-bold hover:bg-red-600 transition-all shadow-xl shadow-red-900/20">
-            Start Your Project
-          </button>
-        </motion.div>
       </div>
     </section>
   );

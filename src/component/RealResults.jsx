@@ -8,28 +8,25 @@ const testimonials = [
   {
     id: "01",
     quote:
-      "Capyngen rebuilt our SaaS dashboard and we booked two times more in 45 days. The UI is high quality, loads right away and our churn reduced by 28%.",
+      "Capyngen has rebuilt our SaaS dashboard and we booked two times more in 45 days. The UI is high quality, loads right away and our churn reduced by 28%.",
     author: "Priya Sharma",
     role: "CTO, ScaleMetrics",
-    impact: "+100% Revenue Growth",
     color: "blue",
   },
   {
     id: "02",
     quote:
-      "After their redesigning, our e-commerce store improved conversion to 4.2%, compared to 1.8%. Cart abandonment has reduced to below 15%.",
+      "After their redesigning, our e-commerce store improved the conversion to 4.2%, as compared to 1.8%. Cart abandonment has now reduced to below 15%.",
     author: "Rohan Desai",
     role: "Founder, UrbanThread",
-    impact: "+133% Conversion Lift",
     color: "indigo",
   },
   {
     id: "03",
     quote:
-      "They designed our brand system and site within 7 weeks. Now we sound like we are in authority and are landing much bigger enterprise deals.",
+      "They designed all our brand system and site within 7 weeks. Now we sound like we are in authority and bigger deals.",
     author: "Neha Kapoor",
     role: "Growth Lead, ConsultEdge",
-    impact: "Premium Market Authority",
     color: "emerald",
   },
 ];
@@ -102,7 +99,7 @@ const TestimonialCard = ({ item, index }) => {
 ============================ */
 export default function RealResults() {
   return (
-    <section className="relative w-full py-32 lg:py-48 bg-black">
+    <section className="relative w-full py-12 lg:py-5 bg-black">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <motion.h2
@@ -111,9 +108,9 @@ export default function RealResults() {
           viewport={{ once: true }}
           className="text-5xl lg:text-7xl font-black tracking-tight text-white mb-24"
         >
-          Documented{" "}
+          Real Results From{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500 italic">
-            Impact.
+            Real Projects
           </span>
         </motion.h2>
 
