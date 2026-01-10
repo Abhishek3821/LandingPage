@@ -35,12 +35,6 @@ const strategyPoints = [
     icon: "M8 9l3 3-3 3m5 0h3",
     color: "indigo",
   },
-  {
-    title: "Future-Proof Systems",
-    text: "Scalable design systems that scale with you. Create pages, features or teams without redesign.",
-    icon: "M4 7v10c0 2.21 3.582 4 8 4",
-    color: "purple",
-  },
 ];
 
 /* ============================
