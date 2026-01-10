@@ -5,7 +5,7 @@ const coreServices = [
   {
     id: "uiux",
     title: "UI/UX Design",
-    description: "Interfaces which seem effortless.",
+    description: "Interfaces that seem effortless.",
     image:
       "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1600&auto=format&fit=crop",
     points: [
@@ -20,7 +20,7 @@ const coreServices = [
   {
     id: "web",
     title: "Website Design",
-    description: "Your Digital Headquarters",
+    description: "Your Design Headquarters",
     image:
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop",
     points: [
@@ -55,7 +55,7 @@ const coreServices = [
       "https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1600&auto=format&fit=crop",
     points: [
       "Optimized product pages in terms of AOV.",
-      "Checkout process has abandonment of less than 2%.",
+      "Checkout process has an abandonment rate of less than 2%.",
       "Converting mobile shopping experiences.",
       "Confidence indicators that minimize reluctance.",
     ],
@@ -242,7 +242,7 @@ export default function CoreServices() {
       <div className="w-full lg:w-1/2 p-6 lg:p-24">
         <div className="max-w-xl mx-auto">
           <div className="mb-20">
-            <h2 className="text-5xl lg:text-7xl font-black text-white mt-4 mb-6">
+            <h2 className="text-5xl lg:text-6xl font-black text-white mt-4 mb-6">
               Our Core Services
             </h2>
           </div>

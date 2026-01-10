@@ -45,7 +45,7 @@ export default function ConversionCTA() {
           </h2>
 
           <p className="text-xl text-slate-300">
-            Stop spending ad on websites that do not work.
+            Stop spending ad money on websites that do not work.
           </p>
         </motion.div>
 

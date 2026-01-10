@@ -16,7 +16,7 @@ const testimonials = [
   {
     id: "02",
     quote:
-      "After their redesigning, our e-commerce store improved the conversion to 4.2%, as compared to 1.8%. Cart abandonment has now reduced to below 15%.",
+      "After their redesign, our e-commerce store improved the conversion to 4.2%, as compared to 1.8%. Cart abandonment has now reduced to below 15%.",
     author: "Rohan Desai",
     role: "Founder, UrbanThread",
     color: "indigo",

@@ -31,7 +31,7 @@ const strategyPoints = [
   },
   {
     title: "Developer-Ready",
-    text: "Idyllic handoff using Figma components, specs, and style guides. No surprises of the lost in translation.",
+    text: "Seamless handoff using Figma components, specs, and style guides. No surprises of the lost in translation.",
     icon: "M8 9l3 3-3 3m5 0h3",
     color: "indigo",
   },

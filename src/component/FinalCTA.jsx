@@ -71,7 +71,7 @@ export default function FinalCTA() {
             model and map out your UI/UX Design change.
             <br />
             <br />
-            Get in touch with Capyngen now- your touchpoint to a digital
+            Get in touch with Capyngen now- your touchpoint to a design
             experience.
           </motion.p>
 

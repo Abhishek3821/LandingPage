@@ -19,7 +19,7 @@ export default function WorkProcess() {
       icon: Lightbulb,
       title: "Strategy & Structure",
       description:
-        "Each of each key screen has its site architecture, user journeys, and page objectives.",
+        "Each of each key screen has its own site architecture, user journeys, and page objectives",
     },
     {
       icon: Map,

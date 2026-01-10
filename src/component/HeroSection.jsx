@@ -21,7 +21,7 @@ export default function HeroSection() {
   return (
     <section
       ref={containerRef}
-      className="relative w-full min-h-screen flex items-center overflow-hidden bg-black"
+      className="relative w-full min-h-screen flex items-center mt-18  overflow-hidden bg-black"
     >
       {/* STATIC BACKGROUND */}
       <div className="absolute inset-0">
@@ -43,11 +43,10 @@ export default function HeroSection() {
             transition={{ duration: 0.8 }}
             className="text-4xl md:text-4xl  font-black text-white leading-tight"
           >
-            Transform Your Digital Presence with{" "}
+            Design That Converts, Brands That Scale -{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
-              Capyngen
-            </span>{" "}
-            – India's Leading Design Agency
+              Powered By Capyngen
+            </span>
           </motion.h1>
 
           <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto lg:mx-0">
@@ -58,7 +57,7 @@ export default function HeroSection() {
           <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto lg:mx-0">
             Capyngen makes jaw-dropping UX/UI, conversion-driven sites,
             memorable brands, high-functioning e-commerce sites, and flexible
-            CMSes that generate actual business outcomes. Our design prowess
+            CMS that generate actual business outcomes. Our design prowess
             brings to life ideas in the form of digital success stories in
             startups and enterprises alike.
           </p>
