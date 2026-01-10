@@ -109,18 +109,6 @@ const Navbar = () => {
                   </button>
                 </motion.li>
               ))}
-
-              {/* MOBILE CTA */}
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.96 }}
-                onClick={() => scrollToSection("contact")}
-                className="mt-1 px-5 py-2 rounded-lg font-semibold text-white
-                bg-blue-600 hover:bg-blue-700
-                shadow-md shadow-blue-600/30 transition"
-              >
-                Free Consultation
-              </motion.button>
             </ul>
           </motion.div>
         )}
