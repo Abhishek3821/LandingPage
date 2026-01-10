@@ -32,7 +32,7 @@ export default function ProblemsSolved() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
           >
-            Your Digital Challenges, Solved
+            Design That Fixes What’s Holding Your Business Back
           </motion.h2>
 
           <motion.p
